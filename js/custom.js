@@ -1,6 +1,6 @@
-console.log("123123");
+console.log("12312355555");
 $("#name").hover(function(){
-		console.log("asdasdsdas");
-		$("#jusef").toggle("slow");
-		$("#perez").toggle("slow");
+		$("#jusef").toggle(1000);
+		$("#perez").toggle(1000);
 });
+$("#college").load("college.html");
