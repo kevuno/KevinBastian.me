@@ -1,0 +1,13 @@
+.row h2{
+	border-top: .9px solid #eee;
+}
+
+section#college{
+	background-color: #2c3e50;
+	color: #fff;
+
+}
+
+hr.star-light-blue:after {
+    background-color: #2c3e50;
+}
