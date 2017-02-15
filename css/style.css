@@ -102,19 +102,18 @@ html,body {
 
 }
 
-body {
+#vid-overlay {
 
-    background-color: #222;
+    position: fixed;
 
-}
+    height: 100%;
 
-body.mobile {
+    width: 100%;
 
-    background: url(../images/mob_bg.jpg) right fixed;
-
-    background-size: cover;
+    background: url(../images/overlay-pattern.png);
 
 }
+
 
 #video-bg {
 
@@ -138,79 +137,7 @@ body.mobile {
 
 }
 
-@-moz-keyframes bgcolor {
 
-    0% {
-
-    background: rgba(0, 46, 58, 0.56);
-
-}
-
-25% {
-
-    background: rgba(4, 20, 49, 0.5);
-
-}
-
-50% {
-
-    background: rgba(4, 20, 49, 0.5);
-
-}
-
-75% {
-
-    background: rgba(68, 8, 31, 0.53);
-
-}
-
-100% {
-
-    background: rgba(0, 46, 58, 0.56);
-
-}
-
-}
-
-@-webkit-keyframes bgcolor {
-
-    0% {
-
-    background: rgba(0, 46, 58, 0.56);
-
-}
-
-35% {
-
-    background: rgba(4, 20, 49, 0.5);
-
-}
-
-70% {
-
-    background: rgba(68, 8, 13, 0.53);
-
-}
-
-100% {
-
-    background: rgba(0, 46, 58, 0.56);
-
-}
-
-}
-
-#vid-overlay {
-
-    position: fixed;
-
-    height: 100%;
-
-    width: 100%;
-
-    background: url(../images/overlay-pattern.png);
-
-}
 
 section {
 
@@ -1047,7 +974,7 @@ section {
 
 }
 
-#contact_form>hr {
+hr {
 
     width: 150px;
 
@@ -1301,7 +1228,7 @@ section {
 
 }
 
-#address {
+#info {
 
     text-align: left;
 
@@ -1309,13 +1236,11 @@ section {
 
 }
 
-#address span {
+#info span {
 
     display: block;
 
     font: 600 1.2em 'open sans', sans-serif;
-
-    text-transform: uppercase;
 
     color: #2C2C2C;
 
@@ -1327,23 +1252,24 @@ section {
 
 }
 
-#address span:nth-child(2) {
+span#email {
 
     background-image: url('../images/email_icn.png');
-
 }
-
-#address span:nth-child(3) {
+    
+span#phone {
 
     background-image: url('../images/phone_icn.png');
 
 }
 
-#address span:nth-child(4) {
+span#location {
 
-    background-image: url('../images/marker_icn.png');
+   background-image: url('../images/marker_icn.png');
 
 }
+ 
+
 
 #form-sub-msg {
 
@@ -1420,7 +1346,6 @@ section {
     height: 100%;
 
     /*box-shadow: 0 0 10px #29d, 0 0 5px #29d;
-
     */
 
  opacity: 1.0;
@@ -2205,11 +2130,6 @@ section {
 
 }
 
-.fadeOutUp {
 
-    -webkit-animation-name: fadeOutUp;
-
-    animation-name: fadeOutUp;
-
-}
-
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
