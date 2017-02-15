@@ -102,18 +102,20 @@ html,body {
 
 }
 
-#vid-overlay {
 
-    position: fixed;
+body {
 
-    height: 100%;
-
-    width: 100%;
-
-    background: url(../images/overlay-pattern.png);
+    background-color: #222;
 
 }
 
+body.mobile {
+
+    background: url(../images/mob_bg.jpg) right fixed;
+
+    background-size: cover;
+
+}
 
 #video-bg {
 
@@ -137,6 +139,79 @@ html,body {
 
 }
 
+@-moz-keyframes bgcolor {
+
+    0% {
+
+    background: rgba(0, 46, 58, 0.56);
+
+}
+
+25% {
+
+    background: rgba(4, 20, 49, 0.5);
+
+}
+
+50% {
+
+    background: rgba(4, 20, 49, 0.5);
+
+}
+
+75% {
+
+    background: rgba(68, 8, 31, 0.53);
+
+}
+
+100% {
+
+    background: rgba(0, 46, 58, 0.56);
+
+}
+
+}
+
+@-webkit-keyframes bgcolor {
+
+    0% {
+
+    background: rgba(0, 46, 58, 0.56);
+
+}
+
+35% {
+
+    background: rgba(4, 20, 49, 0.5);
+
+}
+
+70% {
+
+    background: rgba(68, 8, 13, 0.53);
+
+}
+
+100% {
+
+    background: rgba(0, 46, 58, 0.56);
+
+}
+
+}
+
+#vid-overlay {
+
+    position: fixed;
+
+    height: 100%;
+
+    width: 100%;
+
+    background: url(../images/overlay-pattern.png);
+
+}
 
 
 section {
@@ -2130,6 +2205,12 @@ span#location {
 
 }
 
+.fadeOutUp {
 
+    -webkit-animation-name: fadeOutUp;
+
+    animation-name: fadeOutUp;
+
+}
 Contact GitHub API Training Shop Blog About
 © 2017 GitHub, Inc. Terms Privacy Security Status Help
