@@ -118,6 +118,13 @@ section {
 
     z-index: 9;
 
+    animation: bgcolor 9s;
+
+    -moz-animation: bgcolor 9s infinite;
+
+    -webkit-animation: bgcolor 9s infinite;
+
+
 }
 
 #intro-text {
@@ -332,7 +339,6 @@ section {
 }
 
 /*Section 4*/
-
 #process {
 
     background-color: rgba(255, 255, 255, 0.97);
@@ -935,7 +941,7 @@ hr {
 
     width: 80%;
 
-    margin: auto;
+    margin: 2em auto 2em auto;
 
     height: 1px;
 
