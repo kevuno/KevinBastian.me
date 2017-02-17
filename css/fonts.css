@@ -1,0 +1,58 @@
+/** Personalized fonts **/
+@font-face {
+
+    font-family: 'code_boldregular';
+
+    src: url('../fonts/code_bold-webfont.eot');
+
+    src: url('../fonts/code_bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/code_bold-webfont.woff') format('woff'), url('../fonts/code_bold-webfont.ttf') format('truetype'), url('../fonts/code_bold-webfont.svg#code_boldregular') format('svg');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
+@font-face {
+
+    font-family: 'code_lightregular';
+
+    src: url('../fonts/code_light-webfont.eot');
+
+    src: url('../fonts/code_light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/code_light-webfont.woff') format('woff'), url('../fonts/code_light-webfont.ttf') format('truetype'), url('../fonts/code_light-webfont.svg#code_lightregular') format('svg');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
+@font-face {
+
+    font-family: 'homizio_novalight';
+
+    src: url('../fonts/light-webfont.eot');
+
+    src: url('../fonts/light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/light-webfont.woff') format('woff'), url('../fonts/light-webfont.ttf') format('truetype'), url('../fonts/light-webfont.svg#homizio_novalight') format('svg');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
+@font-face {
+
+    font-family: 'homizio_novaregular';
+
+    src: url('../fonts/regular-webfont.eot');
+
+    src: url('../fonts/regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/regular-webfont.woff') format('woff'), url('../fonts/regular-webfont.ttf') format('truetype'), url('../fonts/regular-webfont.svg#homizio_novaregular') format('svg');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
+
