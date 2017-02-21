@@ -343,8 +343,6 @@ section {
 
     background-color: rgba(255, 255, 255, 0.97);
 
-    text-align: center;
-
 }
 
 #process>h2 {
@@ -360,10 +358,14 @@ section {
 #process article {
 
     padding: 1em 1em 5em;
+    
+    padding-left: 5em;
+
+    padding-right: 5em;
 
 }
 
-#process article span {
+#process article>div {
 
     display: inline-block;
 
@@ -371,27 +373,35 @@ section {
 
     position: relative;
 
+    width: 40%;
+
+    height: 25%;
+    margin: 10px;
+    border: 3px solid #73AD21;  
+
 }
 
 #process article img {
 
     opacity: .7;
 
-    width: 112px;
+    width: 6.5em;
+
+    display: block;
 
 }
 
 #process article h5 {
 
-    font: 400 1.3em 'Open Sans', sans-serif;
+    font: 300 1.1em 'Open Sans', sans-serif;
 
     color: #363636;
 
     padding-top: .65em;
 
-    text-transform: uppercase;
-
     letter-spacing: 1px;
+
+
 
 }
 
