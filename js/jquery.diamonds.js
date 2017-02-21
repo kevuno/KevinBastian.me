@@ -4,10 +4,10 @@
     var Diamonds = function(customOptions) {
         this.options = {
             itemSelector : ".item",
-            size : 280,
+            size : 270,
             gap : 3,
             autoRedraw : true,
-            hideIncompleteRow : true,
+            hideIncompleteRow : false,
             scrollbarWidth : 0,
             minDiamondsPerRow : 2,
             eventPrefix : "diamonds:",
@@ -17,7 +17,7 @@
             rowLowerWrap : $('<div class="diamond-row-lower"></div>'),
             diamondWrap : $('<div class="diamonds"></div>'),
             overrideCss : '.diamonds-{{guid}} .diamond-box-wrap { width: {{size}}px; height: {{size}}px; } .diamonds-{{guid}} .diamond-box { border-width: {{gap}}px }',
-            debugEnabled : false,
+            debugEnabled : true,
             debugEvent : function(event, data) { console.debug("Event: " + event, data); },
             debugMethod : function(method, args) { console.debug("Method: " + method, args)}
         };

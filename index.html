@@ -11,14 +11,13 @@
 	<title>Kevin Bastian</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/style.css"> 
+	<link rel="stylesheet" type="text/css" href="css/style.css?v2"> 
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 
 	
     <script src="js/pace.js"></script> 
 </head>
 <body>
-	<div id="vid-overlay"></div>
 	<!-- Intro -->
 	<section id="intro">
 		<div id="intro-text">
@@ -51,6 +50,7 @@
 	</section>
 	<!-- Services -->
 	<section id="services">
+		<div id="vid-overlay"></div>
 		<h2>S<span>kills</span></h2>
 		<article>
 			<div id="php">
@@ -89,7 +89,7 @@
 					</span>
 					<hr>
 					<span class="location">
-						Micro-Tec @ Puebla, Mexico
+						Micro-Tec del Golfo @ Puebla Mexico
 					</span>				
 					<span class="time">
 						2013 - 2015
@@ -100,11 +100,11 @@
 						<img src="images/psd.png">
 					</div>
 					<span class="job_title">
-						Junior IT System's Manager
+						Junior IT Systems Manager
 					</span>
 					<hr>
 					<span class="location">
-						Micro-Tec @ Puebla, Mexico
+						Micro-Tec del Golfo @ Puebla Mexico
 					</span>
 					<span class="time">
 						2015 - 2016
@@ -146,23 +146,18 @@
 	<!-- Portfolio -->
 	<section id="portfolio">
 		<h2>Portfolio</h2>
-		<ul class="port-style">
-			<div class="diamondswrap" id="port-items">
-				<div class="item" style="background-image: url(images/portfolio/1.jpg);"><span class="item-hover"><h4>Project 1</h4><a href="#">Take a look</a></span></div>
-				<div class="item" style="background-image: url(images/portfolio/2.jpg);"><span class="item-hover"><h4>Project 2</h4><a href="#">Take a look</a></span></div>
-				<div class="item" style="background-image: url(images/portfolio/3.jpg);"><span class="item-hover"><h4>Project 3</h4><a href="#">Take a look</a></span></div>
-				<div class="item" style="background-image: url(images/portfolio/4.jpg);"><span class="item-hover"><h4>Project 4</h4><a href="#">Take a look</a></span></div>
-				<div class="item" style="background-image: url(images/portfolio/5.jpg);"><span class="item-hover"><h4>Project 5</h4><a href="#">Take a look</a></span></div>
-				<div class="item" style="background-image: url(images/portfolio/6.jpg);"><span class="item-hover"><h4>Project 6</h4><a href="#">Take a look</a></span></div>
-				<div class="item" style="background-image: url(images/portfolio/7.jpg);"><span class="item-hover"><h4>Project 7</h4><a href="#">Take a look</a></span></div>
-				<div class="item" style="background-image: url(images/portfolio/8.jpg);"><span class="item-hover"><h4>Project 8</h4><a href="#">Take a look</a></span></div>
-				<div class="item" style="background-image: url(images/portfolio/9.jpg);"><span class="item-hover"><h4>Project 9</h4><a href="#">Take a look</a></span></div>
-				<div class="item" style="background-image: url(images/portfolio/1.jpg);"><span class="item-hover"><h4>Project 10</h4><a href="#">Take a look</a></span></div>
-				<div class="item" style="background-image: url(images/portfolio/2.jpg);"><span class="item-hover"><h4>Project 11</h4><a href="#">Take a look</a></span></div>
-				<div class="item" style="background-image: url(images/portfolio/3.jpg);"><span class="item-hover"><h4>Project 12</h4><a href="#">Take a look</a></span></div>
-				<div class="item" style="background-image: url(images/portfolio/4.jpg);"><span class="item-hover"><h4>Project 13</h4><a href="#">Take a look</a></span></div>
-			</div>
-		</ul>
+		<div id="diamond_container">
+			<ul class="port-style">
+				<div class="diamondswrap" id="port-items">
+					<div class="item" style="background-image: url(images/portfolio/1.jpg);"><span class="item-hover"><h4>Project 1</h4><a href="#">Take a look</a></span></div>
+					<div class="item" style="background-image: url(images/portfolio/2.jpg);"><span class="item-hover"><h4>Project 2</h4><a href="#">Take a look</a></span></div>
+					<div class="item" style="background-image: url(images/portfolio/3.jpg);"><span class="item-hover"><h4>Project 3</h4><a href="#">Take a look</a></span></div>
+					<div class="item" style="background-image: url(images/portfolio/4.jpg);"><span class="item-hover"><h4>Project 4</h4><a href="#">Take a look</a></span></div>
+					<div class="item" style="background-image: url(images/portfolio/5.jpg);"><span class="item-hover"><h4>Project 5</h4><a href="#">Take a look</a></span></div>									
+
+				</div>
+			</ul>
+		</div>
 	</section>
 	<!-- Contact -->
 	<section id="contact">
@@ -183,7 +178,7 @@
 		<div id="map"></div>
 	</section>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDD29U725dg__ZG2x6tC1eQMq6mFgKsUYQ&v=3.exp"></script>
     <script src="js/modernizr.custom.js"></script> <!-- Tester-->
     <script src="js/device.min.js"></script><!--Makes sure css and js is responsive -->
 	<script src="js/jquery.wordrotator.js"></script> <!-- Animates the words -->

@@ -1,20 +1,5 @@
 
  // Intro
-
- $(function() {
-
-     $("#fill-text").wordsrotator({
-
-         words: ['UI Designers', 'Programmers', 'SEO Experts'],
-
-         speed: 4000
-
-     });
-
- });
-
-
-
  $(function() {
 
      $('#intro hgroup h2,#scr-down').fadeIn('slow');
@@ -357,17 +342,16 @@
 
      }, ];
 
-     var options = {
+    var  lat = 43.082892
 
-         mapTypeControlOptions: {
+    var long = -77.681730 
 
-             mapTypeIds: ['Styled']
+    var options = {
 
-         },
 
-         center: new google.maps.LatLng(30.2072037, 74.95851889999994),
+         center: new google.maps.LatLng(lat, long),
 
-         zoom: 15,
+         zoom: 14,
 
          streetViewControl: false,
 
@@ -387,13 +371,13 @@
 
      var marker = new google.maps.Marker({
 
-         position: new google.maps.LatLng(30.2072037, 74.95851889999994),
+         position: new google.maps.LatLng(lat, long),
 
          map: map,
 
          icon: marker_img,
 
-         title: "Prasanjit Singh"
+         title: "Current Location"
 
      });
 
@@ -409,7 +393,7 @@
 
 
 
- // Smooth scroll for anchor click
+ // Smooth scroll for arrow click
 
  $(function() {
 
