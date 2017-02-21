@@ -353,6 +353,8 @@ section {
 
     color: #4D4D4D;
 
+    text-align: center;
+
 }
 
 #process article {
@@ -365,19 +367,33 @@ section {
 
 }
 
-#process article>div {
+#process article>div#container{
+
+    text-align:center;
+
+    margin: 1em;
+
+}
+
+#process article #container>div {
 
     display: inline-block;
 
-    margin: 0 5%;
+    margin: 0 1em;
 
     position: relative;
 
-    width: 40%;
+    width: 11em;
 
-    height: 25%;
-    margin: 10px;
-    border: 3px solid #73AD21;  
+    height: 20em;
+
+    margin: 2em;
+
+    text-align: center;
+
+    vertical-align: top;
+
+    padding: 1em;
 
 }
 
@@ -389,7 +405,48 @@ section {
 
     display: block;
 
+    margin: auto;
+
 }
+
+#process article hr {
+
+    opacity: .3;
+
+}
+
+#process article .job_title {
+
+    margin: 1em .1em .3em .1em;
+
+    display: block;
+
+    font: 800 1em 'Open Sans', sans-serif;
+
+}
+
+#process article .location {
+
+    margin: .1em;
+
+    display: block;
+
+    font: 300 .9em 'Open Sans', sans-serif;
+
+    height: 3em;
+
+}
+
+#process article .time {
+
+    margin: .3em .1em .3em .1em;
+
+    display: block;
+
+    font: 500 .9em 'Open Sans', sans-serif;
+
+}
+
 
 #process article h5 {
 
@@ -400,7 +457,6 @@ section {
     padding-top: .65em;
 
     letter-spacing: 1px;
-
 
 
 }
@@ -897,7 +953,7 @@ section {
 
     vertical-align: top;
 
-    width: 41%;
+    width: 80%;
 
     padding: 0 2%;
 
