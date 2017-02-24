@@ -222,23 +222,46 @@
 
 	}
 
+	#process article #container>div {
+
+		margin: 0;
+
+		padding: 0;
+
+		display: inline-block;
+
+	    position: relative;
+
+	    text-align: center;
+
+	    height: auto;
+
+	    margin-bottom: 3em;
+
+	}
+
+	#process article .job_title {
+
+	    height: auto;
+
+	}
+
+	#process article .location {
+
+		height: auto;
+
+
+	}
+
+	#process article .time {
+
+		height: auto;
+
+	}
+
 	#portfolio>h2{
 
 		font-size: 3.5em;
-
-	}
-
-	.port-style{
-
-		margin: -15em -7em -5em; 
-
-	}
-
-	#send-btn{
-
-		margin: .7em auto 0;
-
-		float: none;
 
 	}
 
