@@ -66,7 +66,7 @@
 
     /* Size of diamonds */
 
- height: 250px;
+    height: 250px;
 
 }
 
@@ -244,6 +244,169 @@
 
     text-align: center;
 
+    margin: 0;
+
+    display: block;
+
+}
+.grid,.grid li, .grid figure, .grid figcaption {
+
+    -webkit-box-sizing: border-box;
+
+    -moz-box-sizing: border-box;
+
+    box-sizing: border-box;
+
+}
+
+.grid {
+
+    padding: 20px;
+
+    max-width: 1366px;
+
     margin: 0 auto;
+
+    list-style: none;
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.grid li {
+
+    display: inline-block;
+
+    width: 30%;
+
+    min-width: 320px;
+
+    margin: 0;
+
+    padding: 15px;
+
+    text-align: left;
+
+    position: relative;
+
+}
+
+.grid figure {
+
+    margin: 0;
+
+    position: relative;
+
+    border-bottom: 4px solid #F35978;
+
+}
+
+.grid figure img {
+
+    max-width: 100%;
+
+    display: block;
+
+    position: relative;
+
+}
+
+.grid figcaption {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    padding: 20px;
+
+    background: #fff;
+
+}
+
+.grid figcaption h3 {
+
+    margin: 0;
+
+    padding: 0 0 3px;
+
+    color: #000;
+
+}
+
+.grid figcaption span {
+
+    font-weight: 300;
+
+    color: #ed4e6e}
+
+.grid figcaption a {
+
+    text-align: center;
+
+    padding: 5px 10px;
+
+    border-radius: 2px;
+
+    display: inline-block;
+
+    background: #ed4e6e;
+
+    color: #fff;
+
+    text-decoration: none;
+
+    text-transform: uppercase;
+
+    font-weight: 300;
+
+}
+
+.port-style figure img {
+
+    z-index: 10;
+
+    -webkit-transition: -webkit-transform 0.4s;
+
+    -moz-transition: -moz-transform 0.4s;
+
+    transition: transform 0.4s;
+
+}
+
+.no-touch .port-style figure:hover img,.port-style figure.cs-hover img {
+
+    -webkit-transform: translateY(-50px) scale(0.6);
+
+    -moz-transform: translateY(-50px) scale(0.6);
+
+    -ms-transform: translateY(-50px) scale(0.6);
+
+    transform: translateY(-50px) scale(0.6);
+
+}
+
+.port-style figcaption {
+
+    height: 100%;
+
+    width: 100%;
+
+}
+
+.port-style figcaption h3 {
+
+    margin-top: 60%;
+
+}
+
+.port-style figcaption a {
+
+    position: absolute;
+
+    bottom: 20px;
+
+    right: 20px;
 
 }

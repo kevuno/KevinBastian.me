@@ -301,7 +301,13 @@ section {
     position: relative;
 
 }
+#services img {
 
+    width: 40px;
+
+    height: 40px;
+
+}
 #services article div {
 
     text-align: left;
@@ -503,7 +509,7 @@ section {
 
 }
 
-#portfolio>h2 {
+#portfolio h2 {
 
     font: normal 5em 'code_boldregular';
 
@@ -512,7 +518,6 @@ section {
     padding: .8em 0 .8em;
 
     position: relative;
-
 }
 
 

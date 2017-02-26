@@ -4,7 +4,7 @@
     var Diamonds = function(customOptions) {
         this.options = {
             itemSelector : ".item",
-            size : 270,
+            size : 240,
             gap : 3,
             autoRedraw : true,
             hideIncompleteRow : false,
