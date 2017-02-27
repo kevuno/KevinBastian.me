@@ -62,6 +62,18 @@
 
 	}
 
+	#services{
+
+		overflow: hidden;
+
+	}
+
+	#services article div{
+
+		font-size: 1.6em;
+
+	}
+
 	#process article span{
 
 		margin: 0 10% 4em;
@@ -74,9 +86,7 @@
 
 	}
 
-	.port-style{
-
-		margin-left: -4em;
+	.port-style{		
 
 		-webkit-transform: scale(.75);
 
@@ -86,7 +96,9 @@
 
 		transform: scale(.75);
 
+		height: 35em;
 
+		margin-top: -10em;
 
 	}
 
@@ -141,8 +153,6 @@
 		-o-transform: scale(.55);
 
 		transform: scale(.55);
-
-
 
 	}
 
