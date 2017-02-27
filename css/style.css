@@ -294,7 +294,7 @@ section {
 
 }
 
-#services>h2 span {
+#services>h2>span {
 
     color: #fff;
 
@@ -513,11 +513,17 @@ section {
 
     font: normal 5em 'code_boldregular';
 
-    color: #fff;
+    color: rgba(168, 30, 32, 0.8);
 
     padding: .8em 0 .8em;
 
     position: relative;
+}
+
+#portfolio h2>span{
+
+    color: #fff;
+    
 }
 
 
