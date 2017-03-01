@@ -526,8 +526,87 @@ section {
     
 }
 
-
 /*Section 6*/
+
+#tools {
+
+    padding: 0 0 5em;
+
+    text-align: center;
+
+    background: #fff;
+
+}
+
+#tools h2 {
+
+    font: normal 5em 'code_boldregular';
+
+    color: rgba(50, 120, 180, 0.8);
+
+    padding: .8em 0 .8em;
+
+    position: relative;
+}
+
+#tools h2>span{
+
+    color: #000;
+    
+}
+#tools article {
+
+    padding: 1em 3em 1em 3em;
+
+}
+
+#tools article>div#container{
+
+    text-align:center;
+
+    -webkit-box-sizing: border-box;
+
+    -moz-box-sizing: border-box;
+
+    box-sizing: border-box;
+
+}
+
+#tools article #container>div {
+
+    display: inline-block;
+
+    margin: 0 1em;
+
+    position: relative;
+
+    width: 10em;
+
+    height: 10em;
+
+    margin: 1em;
+
+    text-align: center;
+
+    vertical-align: top;
+
+    padding: 1em;
+
+}
+
+#tools article img {
+
+    opacity: .7;
+
+    width: 10em;
+
+    display: block;
+
+    margin: auto;
+
+}
+
+/*Section 7*/
 
 #map {
 
