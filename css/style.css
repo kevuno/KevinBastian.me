@@ -371,7 +371,7 @@ section {
 
 }
 
-#process article>div#container{
+#process article>div#process_container{
 
     text-align:center;
 
@@ -383,7 +383,7 @@ section {
 
 }
 
-#process article #container>div {
+#process article #process_container>div {
 
     display: inline-block;
 
@@ -560,7 +560,7 @@ section {
 
 }
 
-#tools article>div#container{
+#tools article>div#tools_container{
 
     text-align:center;
 
@@ -572,7 +572,7 @@ section {
 
 }
 
-#tools article #container>div {
+#tools article #tools_container>div {
 
     display: inline-block;
 
