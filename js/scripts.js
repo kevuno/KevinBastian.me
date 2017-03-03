@@ -241,10 +241,10 @@
 
 	 // Tools section
 	 
-	 
-     controller.addTween('#tools>h2', TweenMax.fromTo($('#tools>h2'), .3, {
 
-         css: {
+	 controller.addTween('#tools>h2', TweenMax.fromTo($('#tools>h2'), .3, {
+
+     css: {
 
              opacity: 0,
 
@@ -255,7 +255,7 @@
          immediateRender: true,
 
          ease: Quad.easeInOut
-
+		 
      }, {
 
          css: {
@@ -273,10 +273,8 @@
 	 
 	 
 	 t = new TimelineLite();
-	 
-	 var delay_val = 0 //Increase by .05 for every item
-	 
-	 var right_val = 10 //Increase by 5% for every item
+	 var right_val = 10 //Increase by 10% for every item
+	 var delay_val = 0 //Increase by 5 for every item
 	 
 	 $('#tools_container').children('div').each(function () {
 		 
@@ -293,18 +291,16 @@
 			}
 
 		});
-		
-		console.log(delay_val);
-		
+
 		delay_val += .01;
-		
+
 		right_val += 5;
 		
 	 });
 	 
 	
      controller.addTween('#tools article',t,1, -200)
-	 
+
 
      // Contact form stroke
 
