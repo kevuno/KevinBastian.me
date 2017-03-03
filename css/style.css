@@ -255,6 +255,10 @@ section {
     color: #18498e;
 
     font-weight: 500;
+	
+	text-align: justify;
+	
+	padding: 0 0  1em 0;
 
 }
 
@@ -576,13 +580,11 @@ section {
 
     display: inline-block;
 
-    margin: 0 1em;
-
     position: relative;
 
-    width: 10em;
+    width: 8em;
 
-    height: 10em;
+    height: 8em;
 
     margin: 1em;
 
@@ -598,7 +600,7 @@ section {
 
     opacity: .7;
 
-    width: 10em;
+    width: 8em;
 
     display: block;
 

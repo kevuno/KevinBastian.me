@@ -39,6 +39,13 @@
 		overflow: hidden;
 
 	}
+	
+	#tools{
+
+		overflow: hidden;
+
+	}
+
 
 	.port-style{
 
@@ -155,6 +162,7 @@
 		transform: scale(.55);
 
 	}
+	
 
 }
 
@@ -177,6 +185,7 @@
 		font-size: 50px;
 
 	}
+	
 
 	#about{
 
@@ -198,7 +207,7 @@
 
 	#about p{
 
-		font-size: 1.2em;
+		font-size: .9em;
 
 	}
 
@@ -280,6 +289,30 @@
 	#contact article > div{
 
 		padding: 0 4% !important;
+
+	}
+	
+	#tools article {
+
+		padding: 1em .5em 1em .5em;
+
+	}
+	
+	#tools article #tools_container>div {
+
+		width: 6em;
+
+		height: 6em;
+
+		margin: 1em;
+		
+		padding: 0em;
+
+	}
+
+	#tools article img {
+
+		width: 6em;
 
 	}
 	/**********Diamonds**************/}
