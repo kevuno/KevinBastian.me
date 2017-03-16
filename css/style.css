@@ -255,6 +255,10 @@ section {
     color: #18498e;
 
     font-weight: 500;
+	
+	text-align: justify;
+	
+	padding: 0 0  1em 0;
 
 }
 
@@ -371,7 +375,7 @@ section {
 
 }
 
-#process article>div#container{
+#process article>div#process_container{
 
     text-align:center;
 
@@ -383,7 +387,7 @@ section {
 
 }
 
-#process article #container>div {
+#process article #process_container>div {
 
     display: inline-block;
 
@@ -560,7 +564,7 @@ section {
 
 }
 
-#tools article>div#container{
+#tools article>div#tools_container{
 
     text-align:center;
 
@@ -572,17 +576,15 @@ section {
 
 }
 
-#tools article #container>div {
+#tools article #tools_container>div {
 
     display: inline-block;
 
-    margin: 0 1em;
-
     position: relative;
 
-    width: 10em;
+    width: 8em;
 
-    height: 10em;
+    height: 8em;
 
     margin: 1em;
 
@@ -598,7 +600,7 @@ section {
 
     opacity: .7;
 
-    width: 10em;
+    width: 8em;
 
     display: block;
 
