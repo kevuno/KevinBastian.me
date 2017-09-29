@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 960px){
 
-	#process article span{
+	#experience article span{
 
 		margin: 0 4%;
 
@@ -81,7 +81,7 @@
 
 	}
 
-	#process article span{
+	#experience article span{
 
 		margin: 0 10% 4em;
 
@@ -229,7 +229,7 @@
 
 	}
 
-	#process article div {
+	#experience article div {
 
 		width: 100%;
 
@@ -237,13 +237,13 @@
 
 	}	
 
-	#process h4{
+	#experience h4{
 
 		padding-top: 0;
 
 	}
 
-	#process article #process_container>div {
+	#experience article #experience_container>div {
 
 		margin: 0;
 
@@ -261,20 +261,20 @@
 
 	}
 
-	#process article .job_title {
+	#experience article .job_title {
 
 	    height: auto;
 
 	}
 
-	#process article .location {
+	#experience article .location {
 
 		height: auto;
 
 
 	}
 
-	#process article .time {
+	#experience article .time {
 
 		height: auto;
 

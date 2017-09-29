@@ -16,7 +16,7 @@
 
 
 
-     // About section
+     // -- About section  -- //
 
      controller.addTween('#about', TweenMax.fromTo($('#about h5'), .3, {
 
@@ -72,7 +72,7 @@
 
 
 
-     // Services Title
+     // -- Skills section -- //
 
      controller.addTween('#services', TweenMax.from($('#services>h2 span'), .4, {
 
@@ -110,78 +110,37 @@
 
 
 
-     // Services section
+     // -- Experience section -- //
+     
+     t = new TimelineLite();
+     
+     var right_val = 10 //Increase by 10% for every item
+     
+	 var delay_val = 0 //Increase by 5 for every item
+	 
+	 $('#experience_container').children('div').each(function () {
+		 
+		t.from(this,.2,{
+			
+			delay: delay_val, 
 
-     controller.addTween(
+			css: {
 
-         '#process article', (new TimelineLite())
+				 opacity: 0,
 
-         .append([
+				 right: right_val.toString()+"%"
 
-             TweenMax.from($('#ideate'), .4, {
+			}
 
-                 delay: .4,
+		});
 
-                 css: {
+		delay_val += .01;
 
-                     opacity: 0,
-
-                     right: '10%'
-
-                 }
-
-             }),
-
-             TweenMax.from($('#photoshop'), .4, {
-
-                 delay: .45,
-
-                 css: {
-
-                     opacity: 0,
-
-                     right: '20%'
-
-                 }
-
-             }),
-
-             TweenMax.from($('#code'), .4, {
-
-                 delay: .5,
-
-                 css: {
-
-                     opacity: 0,
-
-                     right: '25%'
-
-                 }
-
-             }),
-
-             TweenMax.from($('#optimize'), .3, {
-
-                 delay: .55,
-
-                 css: {
-
-                     opacity: 0,
-
-                     right: '35%'
-
-                 }
-
-             })
-
-
-
-         ]),
-
-         1, -200
-
-     );
-
+		right_val += 5;
+		
+	 }); 
+	
+     controller.addTween('#experience article',t,1, -200);
 
 
      // Portfolio
@@ -216,8 +175,6 @@
 
      $('.item').css('position', 'relative').each(function() {
 
-
-
          controller.addTween('#portfolio>h2', TweenMax.from($(this), 1.5, {
 
              delay: Math.random() * .2,
@@ -238,10 +195,10 @@
 
      });
 
+     // -- Tools animation -- //
 
-	 // Tools section
-	 
 
+	 // Tools header animation
 	 controller.addTween('#tools>h2', TweenMax.fromTo($('#tools>h2'), .3, {
 
      css: {
@@ -270,10 +227,14 @@
 
      }), 0, -50);
 	 
-	 
-	 
-	 t = new TimelineLite();
-	 var right_val = 10 //Increase by 10% for every item
+     
+     
+     //  Tools items
+
+     t = new TimelineLite();
+     
+     var right_val = 10 //Increase by 10% for every item
+     
 	 var delay_val = 0 //Increase by 5 for every item
 	 
 	 $('#tools_container').children('div').each(function () {
@@ -296,31 +257,16 @@
 
 		right_val += 5;
 		
-	 });
-	 
+	 }); 
 	
-     controller.addTween('#tools article',t,1, -200)
+     controller.addTween('#tools article',t,1, -200);
 
-
-     // Contact form stroke
-
-     controller.addTween('#contact_form>hr', TweenMax.from($('#contact_form>hr'), .3, {
-
-         css: {
-
-             width: 0
-
-         },
-
-         ease: Quad.easeInOut
-
-     }));
 
  });
 
 
 
- // Initialize Portfolio
+ // Initialize Portfolio //
 
  $("#port-items").diamonds({
 
@@ -330,8 +276,7 @@
 
 
 
- // Google Map for contact section
-
+ // Google Map //
  window.onload = function() {
 
      var styles = [{
@@ -455,7 +400,7 @@
 
 
 
- // Smooth scroll for arrow click
+ // Smooth scroll for arrow click //
 
  $(function() {
 

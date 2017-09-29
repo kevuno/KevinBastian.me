@@ -363,7 +363,7 @@ section {
 }
 
 /*Section 4*/
-#process {
+#experience {
 
     background-color: rgba(255, 255, 255, 0.97);
 
@@ -377,7 +377,7 @@ section {
 
 }
 
-#process>h2 {
+#experience>h2 {
 
     padding: 1.2em 1em;
 
@@ -389,13 +389,13 @@ section {
 
 }
 
-#process article {
+#experience article {
 
     padding: 1em 3em 1em 3em;
 
 }
 
-#process article>div#process_container{
+#experience article>div#experience_container{
 
     text-align:center;
 
@@ -407,7 +407,7 @@ section {
 
 }
 
-#process article #process_container>div {
+#experience article #experience_container>div {
 
     display: inline-block;
 
@@ -415,7 +415,7 @@ section {
 
     position: relative;
 
-    width: 13em;
+    width: 15em;
 
     height: 27em;
 
@@ -429,7 +429,7 @@ section {
 
 }
 
-#process article img {
+#experience article img {
 
     opacity: .7;
 
@@ -441,13 +441,13 @@ section {
 
 }
 
-#process article hr {
+#experience article hr {
 
     opacity: .3;
 
 }
 
-#process article .job_title {
+#experience article .job_title {
 
     margin: 1em .1em .3em .1em;
 
@@ -459,7 +459,7 @@ section {
 
 }
 
-#process article .location {
+#experience article .location {
 
     margin: .1em;
 
@@ -471,7 +471,7 @@ section {
 
 }
 
-#process article .time {
+#experience article .time {
 
     margin: .3em .1em .3em .1em;
 
@@ -482,7 +482,7 @@ section {
 }
 
 
-#process article h5 {
+#experience article h5 {
 
     font: 300 1.1em 'Open Sans', sans-serif;
 
@@ -495,7 +495,7 @@ section {
 
 }
 
-#process h4 {
+#experience h4 {
 
     font: 300 1.4em 'Open Sans', sans-serif;
 
