@@ -230,7 +230,8 @@
      
      
      //  Tools items
-
+     // TODO: FIX THE ORIGIN
+     
      t = new TimelineLite();
      
      var right_val = 10 //Increase by 10% for every item
@@ -239,7 +240,7 @@
 	 
 	 $('#tools_container').children('div').each(function () {
 		 
-		t.from(this,.2,{
+		t.from(this,.1,{
 			
 			delay: delay_val, 
 
@@ -253,7 +254,7 @@
 
 		});
 
-		delay_val += .01;
+		delay_val += .005;
 
 		right_val += 5;
 		
