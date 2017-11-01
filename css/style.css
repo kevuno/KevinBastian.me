@@ -752,6 +752,11 @@ hr {
     word-wrap: break-word;
 
 }
+#info a {
+
+    color: #353535;
+    
+}
 
 span#email {
 
@@ -769,4 +774,27 @@ span#location {
    background-image: url('../images/marker_icn.png');
 
 }
+
+span#github {
+    
+    background-image: url('../images/github.svg');
+    background-size: 22px 22px;
+    
+}
+
+#resume-section {
+    float: right;
+
+}
+
+#resume-section  a{
+
+    font: 500 1.6em 'Open Sans', sans-serif;
+    
+    letter-spacing: -1px;
+    
+    
+    padding-bottom: .3em;    
+}
+
  
